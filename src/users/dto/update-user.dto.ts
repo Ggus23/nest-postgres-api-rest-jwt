@@ -6,7 +6,7 @@ import {
   MinLength,
 } from 'class-validator';
 
-export class UpdateCatDto {
+export class UpdateUserDto {
   @IsString()
   @MinLength(3)
   @IsOptional()
