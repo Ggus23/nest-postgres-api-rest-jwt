@@ -15,7 +15,7 @@ export class UpdateCatDto {
   @IsInt()
   @IsPositive()
   @IsOptional()
-  email?: number;
+  email?: string;
 
   @IsString()
   @IsOptional()
