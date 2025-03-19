@@ -20,4 +20,8 @@ export class UpdateCatDto {
   @IsString()
   @IsOptional()
   password?: string;
+
+  @IsString()
+  @IsOptional()
+  role?: string;
 }
