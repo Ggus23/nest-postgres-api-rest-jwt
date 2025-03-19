@@ -15,6 +15,7 @@ async function bootstrap() {
       transform: true,
     }),
   );
+  // cors
   app.enableCors();
   const config = new DocumentBuilder()
     .setTitle("Cats example")
